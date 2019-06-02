@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PhotosWindows"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="Photos Windows" Height="97.5" Width="276.326" ResizeMode="NoResize" Icon="image-icon.png">
+
+    <Grid Margin="10">
+        <Button HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="50" BorderBrush="#FF53609C" Background="{x:Null}" BorderThickness="2">
+            <DockPanel Margin="10">
+                <Image Source="settings-icon.png" />
+            </DockPanel>
+        </Button>
+        <Button Content="Get Windows Images" HorizontalAlignment="Stretch" Margin="55,0,55,0" VerticalAlignment="Stretch" BorderBrush="#FF53609C" Background="{x:Null}" BorderThickness="2" FontWeight="Bold" Foreground="#FF53609C" />
+        <Button HorizontalAlignment="Right" VerticalAlignment="Stretch"  Width="50" BorderBrush="#FF53609C" Background="{x:Null}" BorderThickness="2">
+            <DockPanel Margin="10">
+                <Image Source="open-folder-icon.png" />
+            </DockPanel>
+        </Button>
     </Grid>
 </Window>
